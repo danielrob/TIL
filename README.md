@@ -1,10 +1,13 @@
 ### 21st 
 
-###### devtools has a colorpicker - [tweet](https://twitter.com/danztweet/status/987602024597409797)
+###### devtools has a colorpicker 
+[(tweet)](https://twitter.com/danztweet/status/987602024597409797)
 
-###### the lodash of styled-components - [polished](https://polished.js.org/)
+###### the lodash of styled-components
+[polished](https://polished.js.org/)
 
-###### react components: [set of color picker components](https://github.com/casesandberg/react-color/), [gmail style popover](https://github.com/sasha240100/react-rectangle-popup-menu)
+###### react components: 
+[set of color picker components](https://github.com/casesandberg/react-color/), [gmail style popover](https://github.com/sasha240100/react-rectangle-popup-menu)
 
 ###### TIR:
 - https://medium.com/@albinotonnina/magic-hat-technique-408a3fa590bb  
