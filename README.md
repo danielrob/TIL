@@ -14,6 +14,7 @@
 - https://medium.com/@albinotonnina/magic-hat-technique-408a3fa590bb  
 - https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc
 - https://hackernoon.com/making-of-a-component-library-for-react-e6421ea4e6c7
+- https://medium.freecodecamp.org/every-developer-should-have-a-blog-heres-why-and-how-to-stick-with-it-5fd55a247fbf
 
 
 ## April
