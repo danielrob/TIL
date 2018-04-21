@@ -10,6 +10,9 @@
 - [a set of color picker components](https://github.com/casesandberg/react-color/)
 - [gmail style popover](https://github.com/sasha240100/react-rectangle-popup-menu)
 
+###### `fetch` accepts `FormData` objects as the body... very nice, even though `FormData` objects are non iterable and somewhat awful in that regard :D. 
+https://medium.com/@everdimension/how-to-handle-forms-with-just-react-ac066c48bd4f
+
 ###### TIR:
 - https://medium.com/@albinotonnina/magic-hat-technique-408a3fa590bb  
 - https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc
