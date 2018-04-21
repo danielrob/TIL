@@ -1,7 +1,3 @@
-# TIL
-A learning diary
-
-
 ### 21st 
 
 ###### devtools has a colorpicker
