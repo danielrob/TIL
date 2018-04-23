@@ -8,6 +8,8 @@ They allow you intercept object.key accesses and perform actions! [ES2015 Proxie
 ###### today I created: 
 [styled-as-components](https://www.npmjs.com/package/styled-as-components) I had to remind myself of a bit of prototype / inheritance features of javascript which in this case was useful to avoid loops inside a factory function. 
 
+Thanks to [this medium](https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce) for how to publish. 
+
 ### 21st 
 
 ###### devtools has a colorpicker 
