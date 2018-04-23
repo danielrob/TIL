@@ -1,3 +1,13 @@
+### 23rd
+
+###### wtf... js proxies... 
+They allow you intercept object.key accesses and perform actions! [ES2015 Proxies](https://developers.google.com/web/updates/2016/02/es2015-proxies)
+
+### 22nd
+
+###### today I created: 
+[styled-as-components](https://www.npmjs.com/package/styled-as-components) I had to remind myself of a bit of prototype / inheritance features of javascript which in this case was useful to avoid loops inside a factory function. 
+
 ### 21st 
 
 ###### devtools has a colorpicker 
