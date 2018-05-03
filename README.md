@@ -3,6 +3,27 @@
 ###### `Object.defineProperty`
 Is like a single property proxy, allowing you to intercept a property get _with context_. That last part helped me out of a [pickle](https://stackoverflow.com/questions/50150554/add-function-to-constructor-prototype-with-method-with-access-to-this-from-const/50151472#50151472). 
 
+###### `choose your drag and drop`
+Litmus test: do you want a drag preview? If you just want to move something, this is probably better: 
+```
+element.addEventListener('mousedown', mouseDownHandler)
+
+mouseDownHandler = () => {
+ document.addEventListener('mouseover', mouseOverHandler)
+ document.addEventListener('mouseup', mouseUpHandler)
+}
+
+mouseUpHandler = () => {
+ document.removeEventListener('mouseover', mouseOverHandler)
+ document.removeEventListener('mouseup', mouseUpHandler)
+}
+
+mouseOverHandler = ({ clientX, clientY }) => {
+   console.log(`mouse position: (${clientX}, ${clientY})`)
+}
+```
+Also: [clientX & clientY & drag events in Firefox not gonna happen](https://twitter.com/dan_abramov/status/529048892189724673)
+
 ###### bits and bobs
 - `String.repeat(n)` is handy and `'\u00A0'` is a space  
 - You can steal text from a page by selecting all of it copying the highlight and deselecting. `user-select` property. Draggable elements have it as `none` by default. 
