@@ -1,3 +1,17 @@
+## 3rd
+
+###### `Object.defineProperty`
+Is like a single property proxy, allowing you to intercept a property get _with context_. That last part helped me out of a [pickle](https://stackoverflow.com/questions/50150554/add-function-to-constructor-prototype-with-method-with-access-to-this-from-const/50151472#50151472). 
+
+###### bits and bobs
+- `String.repeat(n)` is handy and `'\u00A0'` is a space  
+- You can steal text from a page by selecting all of it copying the highlight and deselecting. `user-select` property. Draggable elements have it as `none` by default. 
+-  [wow, a css painting recreation](http://diana-adrianne.com/purecss-francine/)
+
+###### a good icon lib: [ionicons](http://ionicons.com/)
+
+## May
+
 ### 23rd
 
 ###### wtf... js proxies... 
