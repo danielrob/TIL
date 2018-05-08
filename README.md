@@ -1,3 +1,13 @@
+## 8th
+##### You muppet... eslint no-use-before-define 
+Can be quite easily set to `["error", { "functions": true, "classes": true }]`, so it's absolutely fine for a const to be declared below a function that is consumed in that function... how had I ruled that out? 
+
+##### Stop using google, use npm directly
+It's surprising how I'd assumed searching google would get me the npm results I wanted. Nope. Use npm more. 
+
+##### Text inputs are harder than they look in react...
+Especially if you want to change a value in the onChange. React then thows an `¯\_(ツ)_/¯` about where to put the cursor cause it's like "you changed it (wo)man". I couldn't actually figure this out and threw a sadface... I'd always get cursor jumping on the old `element.setSelectionRange(pos, pos)` with react with a 32ms render. I'll have to read libraries like `react-input-enhancements` more closely or just create custom text masks from `text-mask` but that's a heavy solution. 
+
 ## 3rd
 
 ###### `Object.defineProperty`
