@@ -1,6 +1,14 @@
+## 16th
+
+##### Hmmm, maybe I should start a deploy-awesome list? 
+ - http://surge.sh/
+ - https://zeit.co/
+ - https://www.netlify.com/
+
+
 ## 8th
-##### You muppet... eslint no-use-before-define 
-Can be quite easily set to `["error", { "functions": true, "classes": true }]`, so it's absolutely fine for a const to be declared below a function that is consumed in that function... how had I ruled that out? 
+##### Lol... eslint no-use-before-define 
+Can be quite easily set to `["error", { "functions": true, "classes": true }]`, so it's absolutely fine for a const to be declared below a function that is consumed in that function... how had I ruled that out at some point? 
 
 ##### Stop using google, use npm directly
 It's surprising how I'd assumed searching google would get me the npm results I wanted. Nope. Use npm more. 
