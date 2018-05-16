@@ -53,7 +53,7 @@ Also: [clientX & clientY & drag events in Firefox not gonna happen](https://twit
 
 ### 23rd
 
-###### wtf... js proxies... 
+###### js proxies are cool, and seemingly hard to misuse... 
 They allow you intercept object.key accesses and perform actions! [ES2015 Proxies](https://developers.google.com/web/updates/2016/02/es2015-proxies)
 
 ### 22nd
